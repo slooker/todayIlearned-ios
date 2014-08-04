@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0467AB0198AA4010023ED39 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0467AAF198AA4010023ED39 /* User.swift */; };
+		A0467AE2198AE5D20023ED39 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0467AE1198AE5D20023ED39 /* RegisterViewController.swift */; };
 		A04969E81987EABF00E87515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04969E71987EABF00E87515 /* AppDelegate.swift */; };
 		A04969EB1987EABF00E87515 /* todayILearned.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A04969E91987EABF00E87515 /* todayILearned.xcdatamodeld */; };
-		A04969ED1987EABF00E87515 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04969EC1987EABF00E87515 /* ViewController.swift */; };
+		A04969ED1987EABF00E87515 /* AddTILViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04969EC1987EABF00E87515 /* AddTILViewController.swift */; };
 		A04969F01987EABF00E87515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04969EE1987EABF00E87515 /* Main.storyboard */; };
 		A04969F21987EABF00E87515 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04969F11987EABF00E87515 /* Images.xcassets */; };
 		A04969FE1987EABF00E87515 /* todayILearnedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04969FD1987EABF00E87515 /* todayILearnedTests.swift */; };
+		A0496A081987F13E00E87515 /* TILTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0496A071987F13E00E87515 /* TILTableViewController.swift */; };
+		A0496A0B19880DEE00E87515 /* TILItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0496A0A19880DEE00E87515 /* TILItem.swift */; };
+		A08CD951198C4F7B00C20142 /* AlamoFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CD950198C4F7B00C20142 /* AlamoFire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +31,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0467AAF198AA4010023ED39 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A0467AE1198AE5D20023ED39 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A04969E21987EABF00E87515 /* todayILearned.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todayILearned.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04969E61987EABF00E87515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A04969E71987EABF00E87515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A04969EA1987EABF00E87515 /* todayILearned.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todayILearned.xcdatamodel; sourceTree = "<group>"; };
-		A04969EC1987EABF00E87515 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A04969EC1987EABF00E87515 /* AddTILViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTILViewController.swift; sourceTree = "<group>"; };
 		A04969EF1987EABF00E87515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A04969F11987EABF00E87515 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A04969F71987EABF00E87515 /* todayILearnedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todayILearnedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04969FC1987EABF00E87515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A04969FD1987EABF00E87515 /* todayILearnedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todayILearnedTests.swift; sourceTree = "<group>"; };
+		A0496A071987F13E00E87515 /* TILTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TILTableViewController.swift; sourceTree = "<group>"; };
+		A0496A091987F19C00E87515 /* TILTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TILTableViewController.h; sourceTree = "<group>"; };
+		A0496A0A19880DEE00E87515 /* TILItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TILItem.swift; sourceTree = "<group>"; };
+		A08CD950198C4F7B00C20142 /* AlamoFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamoFire.swift; path = todayILearned/AlamoFire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,7 @@
 		A04969D91987EABF00E87515 = {
 			isa = PBXGroup;
 			children = (
+				A08CD950198C4F7B00C20142 /* AlamoFire.swift */,
 				A04969E41987EABF00E87515 /* todayILearned */,
 				A04969FA1987EABF00E87515 /* todayILearnedTests */,
 				A04969E31987EABF00E87515 /* Products */,
@@ -78,8 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				A04969E71987EABF00E87515 /* AppDelegate.swift */,
-				A04969EC1987EABF00E87515 /* ViewController.swift */,
+				A04969EC1987EABF00E87515 /* AddTILViewController.swift */,
+				A0467AE1198AE5D20023ED39 /* RegisterViewController.swift */,
+				A0496A071987F13E00E87515 /* TILTableViewController.swift */,
+				A0467AAF198AA4010023ED39 /* User.swift */,
+				A0496A091987F19C00E87515 /* TILTableViewController.h */,
 				A04969EE1987EABF00E87515 /* Main.storyboard */,
+				A0496A0A19880DEE00E87515 /* TILItem.swift */,
 				A04969F11987EABF00E87515 /* Images.xcassets */,
 				A04969E91987EABF00E87515 /* todayILearned.xcdatamodeld */,
 				A04969E51987EABF00E87515 /* Supporting Files */,
@@ -211,9 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04969ED1987EABF00E87515 /* ViewController.swift in Sources */,
+				A04969ED1987EABF00E87515 /* AddTILViewController.swift in Sources */,
 				A04969E81987EABF00E87515 /* AppDelegate.swift in Sources */,
+				A0467AE2198AE5D20023ED39 /* RegisterViewController.swift in Sources */,
+				A08CD951198C4F7B00C20142 /* AlamoFire.swift in Sources */,
+				A0467AB0198AA4010023ED39 /* User.swift in Sources */,
+				A0496A0B19880DEE00E87515 /* TILItem.swift in Sources */,
 				A04969EB1987EABF00E87515 /* todayILearned.xcdatamodeld in Sources */,
+				A0496A081987F13E00E87515 /* TILTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,8 +352,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = todayILearned/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -341,8 +365,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = todayILearned/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -399,6 +425,7 @@
 				A0496A031987EABF00E87515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0496A041987EABF00E87515 /* Build configuration list for PBXNativeTarget "todayILearnedTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +434,7 @@
 				A0496A061987EABF00E87515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
