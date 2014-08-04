@@ -32,7 +32,11 @@ import CoreData
             Alamofire.request(.GET, urlPath)
                 .responseJSON {(request, response, JSON, error) in
 //                    println(JSON)
-                    self.loadTableData(JSON as NSDictionary)
+                    if JSON as? NSDictionary != nil {
+                        self.loadTableData(JSON as NSDictionary)
+                    } else {
+                        Alert.alertMessage("Error", message: "Could not connect to server to load TIL items")
+                    }
             }
 
             
@@ -100,16 +104,6 @@ import CoreData
             self.TILItems.addObject(item)
         }
         self.tableView.reloadData()
-
-        
-
-//        var item1 = TILItem(name: "Learned how to create a docker instance")
-//        self.TILItems.addObject(item1)
-//        
-//        var item2 = TILItem(name: "Learned about docker files")
-//        self.TILItems.addObject(item2)
-        
-        // Load from a url
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView!) -> Int {

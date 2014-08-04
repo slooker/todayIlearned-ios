@@ -43,7 +43,7 @@ class RegisterViewController: UIViewController, NSURLConnectionDelegate {
                     println(JSON)
                     var userData: NSDictionary = JSON as NSDictionary
                     if let error: String = userData.valueForKey("error") as? String {
-                        self.alertMessage("Error", message: error)
+                        Alert.alertMessage("Error", message: error)
                     } else {
                         var tilUser: TILUser = TILUser(name: userData.valueForKey("name") as String, uuid: userData.valueForKey("uuid") as String, key: userData.valueForKey("key") as String)
                         println(tilUser)
@@ -57,21 +57,11 @@ class RegisterViewController: UIViewController, NSURLConnectionDelegate {
         } else {
             // Error
             println("Username less than 4 characters")
-            alertMessage("Error", message: "Username must be 5 or more characters")
+            Alert.alertMessage("Error", message: "Username must be 5 or more characters")
         }
         println("Done with ibaction")
     }
     
-    func alertMessage(title: String, message: String) {
-        println("Alerting")
-        var alertView = UIAlertView();
-        alertView.addButtonWithTitle("Okay");
-        alertView.title = title
-        alertView.message = message;
-        println("getting ready to show alert")
-        alertView.show();
-        println("Done showing alert")
-    }
     
     func saveUser(tilUser: TILUser) {
         println("Saving user")
